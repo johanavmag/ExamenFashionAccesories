@@ -1,0 +1,144 @@
+/* Section bg-img*/
+#slider{
+	margin-bottom: $cinco;
+	.fa-chevron-right, .fa-chevron-left{
+		margin-top: 100%;
+	}
+	.carousel-caption{
+		margin-left: $diez;
+		padding: 0%;
+		width: 40%;
+		font-weight: lighter;
+		margin-bottom: $diez;
+	}
+	.pos{
+		p{
+			font-family: 'Lato', sans-serif;
+			font-weight: lighter;
+			font-size: large;
+		}
+	}
+	.brdr-gray{
+		border: .2em solid silver;
+		margin-bottom: 15%;
+		h2{
+			font-family: 'Lato', sans-serif;
+			font-weight: lighter;
+		}
+	}
+}
+/*Fin Section bg-img*/
+/*Section arrival*/
+#arrival{
+	.banners{
+		margin-bottom: $cinco;
+	}
+	.list-items{
+		ul{
+			list-style-type: none;
+			li{
+				display: inline;
+				margin-right: $cinco;
+				a{
+					color: silver;
+					font-size: x-large;
+				}
+			}
+		}
+	}
+}
+/*Fin Section arrival*/
+/*Section img-latest*/
+#img-latest{
+	.img-brdr{
+		border: .1em solid silver;
+		margin: $uno;
+		width: 23%;
+		padding-top: .5%;
+		padding-bottom: .5%;
+		img{
+			width: 90%;
+			margin-left: 4%;
+		}
+		.red{
+			color: $bgHighlight;
+			span{
+				color: #b1b4b4;
+			}
+		}
+	}
+}
+/*Fin Section img-latest*/
+/*Section clients*/
+#clients{
+	margin-top: $cinco;
+	background-image: url("../images/client-bg.jpg");
+	background-size: cover;
+	height: 20em;
+	margin-bottom: $cinco;
+	.client{
+		width: 95%;
+		margin-top: 60%;
+	}
+}
+/*Fin Section clients*/
+/*Section clothing*/
+#clothing{
+	@extend #arrival;
+	.cloth{
+		margin-top: $cinco;
+		margin-bottom: $dos;
+		img{
+			width: 100%;
+		}
+		button{
+			background-color:#323434;
+			color: white;
+			border: none;
+			padding: $cinco;
+		}
+		.red{
+			color: $bgHighlight;
+			span{
+				color: #b1b4b4;
+			}
+		}
+	}
+}
+/*Fin Section clothing*/
+/*Section Blog*/
+#blog{
+	margin-top: $dos;
+	@extend #arrival;
+	li{
+		.neg{
+			color: black !important;
+		}
+	}
+	.sample{
+		margin-top: $cinco;
+		margin-bottom: $cinco;
+		img{
+			width: 100%;
+		}
+		.red{
+			color: $bgHighlight;
+			span{
+				color: #b1b4b4;
+			}
+		}
+	}
+	.order{
+		margin-bottom: $cinco;
+		.brdr-gray{
+			border: .1em solid silver;
+			padding: .5%;
+			width: 32%;
+			margin-left: .5%;
+			.col-md-3{
+				border-right: .1em solid silver;
+			}
+		}
+	}
+}
+/*Fin Section Blog*/

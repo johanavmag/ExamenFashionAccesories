@@ -1,0 +1,45 @@
+/*Pagina Contact*/
+#c-info{
+	background-image: url("../images/client-bg.jpg");
+	height: 30em;
+	background-size: cover;
+	background-repeat: no-repeat;
+	.bg-red{
+		background-color: $bgHighlight;
+		color: white;
+		padding: $uno;
+		margin-top: 30%;
+		p{
+			font-size:5em;
+		}
+	}
+	.info{
+		margin-top: 10%;
+		color: white;
+		font-size: medium;
+	}
+}
+#map{
+	margin-top: $cinco;
+	margin-bottom: $cinco;
+	input{
+		width: 100%;
+		margin-bottom: $diez;
+		background-color:#e6e6e6 ;
+		border: none; 
+		padding: $dos;
+	}
+	.big{
+		height: 16em;
+		margin-top: -$cinco;
+	}
+	button{
+		background-color: #323434;
+		padding: $dos;
+		color: white;
+		border: none;
+		float: right;
+		width: 7em;
+	}
+}
+/*Fin Pagina Contact*/

@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Welcome to my site</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/main.scss" rel="stylesheet">
+    <!--links fuentes google-->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <header>
+    <!--Navbar-top-->
+        <nav class="navbar-default">
+            <div class="container-fluid">
+                <div class="navbar">
+                    <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#page-top">Default Welcome Msg!</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span><img src="images/flag1.png"></span> Language
+                            <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><img src="images/flag2.png"> Français</a></li> 
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-usd"></i> Currency
+                            <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><i class="fa fa-money"></i> Dollar</a></li>
+                                <li><a href="#"><i class="fa fa-eur"></i> Euro</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-user"></i> MyAccount
+                            <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">LogIn</a></li>
+                                <li><a href="#">Create Account</a></li> 
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <!--Fin Navbar-Top-->
+    </header>
+    <section id="time">
+        <div class="container container-fluid">
+            <div class="row">
+                <div class="col-md-4 col-xs-5 opening">
+                    <div class="col-md-2 col-xs-2">
+                        <i class="fa fa-clock-o fa-4x"></i>
+                    </div>
+                    <div class="col-md-10 col-xs-10 txt">
+                        <p class="txt-1">OPENING TIME</p>
+                        <p>9:00 AM - 10:00 PM</p>
+                    </div>
+                </div>
+                <div class="col-md-5 col-xs-7">
+                    <img id="logo" class="img-responsive" src="images/logo.png">
+                </div>
+                <div class="col-md-3 hidden-xs">
+                    <input placeholder="Search"><i class="fa fa-search"></i></input>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="cart">
+        <div class="container">
+            <div class="row">
+                <ul class="nav nav-tabs">
+                  <li class="active"><a href="Home.html">HOME</a></li>
+                  <li><a href="Contact.html">CONTACT US</a></li>
+                  <li class="dropdown navbar-right">
+                        <a class="dropdown-toggle " data-toggle="dropdown" href="#"><i class="fa fa-shopping-cart"></i>  MY CART <br> 2 item(s) - $244.00
+                        <span class="caret"></span></a>
+                        <ul class="dropdown-menu ">
+                            <li class="dropdown-large">
+                                <a href="#">
+                                    <div class="items">
+                                        <div class="col-md-3"><img class="img-responsive" src="images/cart-1.jpg"> <p>Aliquam Consequat</p>
+                                            <p>1x500</p>
+                                        <div class="col-md-9">
+                                            
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="dropdown-large">
+                                <a href="#">
+                                    <div class="items">
+                                        <img class="img-responsive" src="images/cart-1.jpg"> <p>Aliquam Consequat</p>
+                                        <p>1x500</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="slider">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img class="img-responsive" src="images/slider1.jpg" alt="Chania">
+              <div class="carousel-caption brdr-gray">
+                  <h2>AUTUMN/WINTER LOOKBOOK</h2>
+              </div>
+              <div class="carousel-caption pos">
+                  <p> -  2016 COLLECTION  - </p>
+              </div>
+            </div>
+            <div class="item">
+              <img class="img-responsive" src="images/slider2.jpg" alt="Chania">
+              
+            </div>
+          </div>
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="fa fa-chevron-left fa-4x" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="fa fa-chevron-right fa-4x" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+    </section>
+    <section id="arrival">
+        <div class="container">
+            <div class="row banners">
+                <div class="col-md-5 col-xs-5">
+                    <img class="img-responsive" src="images/banner1.jpg">
+                </div>
+                <div class="col-md-7 col-xs-7">
+                    <img class="img-responsive" src="images/banner2.jpg">
+                </div>
+            </div>
+            <div class="row list-items">
+               <div class="col-md-12 col-xs-12 text-center">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-chevron-left"></i></a></li>
+                        <li><a href="#">LATEST</a></li>
+                        <li><a href="#">BESTSELLER</a></li>
+                        <li><a href="#">SALE</a></li>
+                        <li><a href="#"><i class="fa fa-chevron-right"></i></a></li>
+                    </ul>
+               </div>
+            </div>
+        </div>
+        <section id="img-latest">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-xs-12 img-brdr text-center">
+                        <img class="img-responsive" src="images/a1.jpg">
+                        <p>Deliver Wide</p>
+                        <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+                        </p>
+                        <p class="red">$218.00</p>
+                    </div>
+                    <div class="col-md-3 col-xs-12 img-brdr text-center">
+                        <img class="img-responsive" src="images/b1.jpg">
+                        <p>Deliver Wide</p>
+                        <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+                        </p>
+                        <p class="red"><span><s>$242.00</s></span> $218.00</p>
+                    </div>
+                    <div class="col-md-3 col-xs-12 img-brdr text-center">
+                        <img class="img-responsive" src="images/c1.jpg">
+                        <p>Deliver Wide</p>
+                        <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+                        </p>
+                        <p class="red"><span><s>$242.00</s></span> $218.00</p>
+                    </div>
+                    <div class="col-md-3 col-xs-12 img-brdr text-center">
+                        <img class="img-responsive" src="images/d1.jpg">
+                        <p>Deliver Wide</p>
+                        <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+                        </p>
+                        <p class="red">$218.00</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section id="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <img class="client img-responsive" src="images/client1.jpg">
+                </div>
+                <div class="col-md-2">
+                    <img class="client img-responsive" src="images/client2.jpg">
+                </div>
+                <div class="col-md-2">
+                    <img class="client img-responsive" src="images/client3.jpg">
+                </div>
+                <div class="col-md-2">
+                    <img class="client img-responsive" src="images/client4.jpg">
+                </div>
+                <div class="col-md-2">
+                    <img class="client img-responsive" src="images/client5.jpg">
+                </div>
+                <div class="col-md-2">
+                    <img class="client img-responsive" src="images/client6.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="clothing">
+        <div class="container">
+            <div class="row">
+                <div class="row list-items">
+                   <div class="col-md-12 col-xs-12 text-center">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-chevron-left"></i></a></li>
+                            <li><a href="#">CLOTHING</a></li>
+                            <li><a href="#">EQUIPMENTS</a></li>
+                            <li><a href="#">JEWELLERY</a></li>
+                            <li><a href="#"><i class="fa fa-chevron-right"></i></a></li>
+                        </ul>
+                   </div>
+                </div>
+            </div>
+            <div class="row cloth">
+                <div class="col-md-4 col-xs-12">
+                    <div class="col-md-5 col-xs-5">
+                        <img class="img-responsive img-thumbnail" src="images/a2.jpg">  
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                        <p>Deliver Wide</p>
+                        <p class="red"><span><s>$242.00</s></span> $218.00</p>
+                        <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+                        </p>
+                        <button><i class="fa fa-shopping-cart"></i>Add To Cart</button>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <div class="col-md-5 col-xs-5">
+                        <img class="img-responsive img-thumbnail" src="images/d2.jpg">  
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                        <p>Deliver Wide</p>
+                        <p class="red">$218.00</p>
+                        <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+                        </p>
+                        <button><i class="fa fa-shopping-cart"></i>Add To Cart</button>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <div class="col-md-5 col-xs-5">
+                        <img class="img-responsive img-thumbnail" src="images/g2.jpg">  
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                        <p>Deliver Wide</p>
+                        <p class="red">$218.00</p>
+                        <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+                        </p>
+                        <button><i class="fa fa-shopping-cart"></i>Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row cloth">
+                <div class="col-md-4 col-xs-12">
+                    <div class="col-md-5 col-xs-5">
+                        <img class="img-responsive img-thumbnail" src="images/c2.jpg">  
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                        <p>Deliver Wide</p>
+                        <p class="red">$218.00</p>
+                        <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+                        </p>
+                        <button><i class="fa fa-shopping-cart"></i>Add To Cart</button>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <div class="col-md-5 col-xs-5">
+                        <img class="img-responsive img-thumbnail" src="images/c2.jpg">  
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                        <p>Deliver Wide</p>
+                        <p class="red"><span><s>$242.00</s></span> $218.00</p>
+                        <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+                        </p>
+                        <button><i class="fa fa-shopping-cart"></i>Add To Cart</button>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <div class="col-md-5 col-xs-5">
+                        <img class="img-responsive img-thumbnail" src="images/e1.jpg">  
+                    </div>
+                    <div class="col-md-7 col-xs-7">
+                        <p>Deliver Wide</p>
+                        <p class="red">$218.00</p>
+                        <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+                        </p>
+                        <button><i class="fa fa-shopping-cart"></i>Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="list-items">
+                   <div class="col-md-12 col-xs-12 text-center">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-chevron-left"></i></a></li>
+                            <li ><a class="neg" href="#">BLOG</a></li>
+                            <li><a href="#"><i class="fa fa-chevron-right"></i></a></li>
+                        </ul>
+                   </div>
+                </div>
+            </div>
+            <div class="row sample">
+                <div class="col-md-3 col-xs-12">
+                    <img class="img-responsive" src="images/blog2.jpg">
+                    <h5>THE SAMPLE HEADING TITLE</h5>
+                    <p>27/11/2015</p>
+                    <p>Lorem ipsum dolor sit amet,consectetur adipisic ing elit, sed do...</p>
+                    <a class="red" href="#">Read more ...</a>
+                </div>
+                <div class="col-md-3 col-xs-12">
+                    <img class="img-responsive" src="images/blog1.jpg">
+                    <h5>THE SAMPLE HEADING TITLE</h5>
+                    <p>27/11/2015</p>
+                    <p>Lorem ipsum dolor sit amet,consectetur adipisic ing elit, sed do...</p>
+                    <a class="red" href="#">Read more ...</a>
+                </div>
+                <div class="col-md-3 col-xs-12">
+                    <img class="img-responsive" src="images/blog2.jpg">
+                    <h5>THE SAMPLE HEADING TITLE</h5>
+                    <p>27/11/2015</p>
+                    <p>Lorem ipsum dolor sit amet,consectetur adipisic ing elit, sed do...</p>
+                    <a class="red" href="#">Read more ...</a>
+                </div>
+                <div class="col-md-3 col-xs-12">
+                    <img class="img-responsive" src="images/blog3.jpg">
+                    <h5>THE SAMPLE HEADING TITLE</h5>
+                    <p>27/11/2015</p>
+                    <p>Lorem ipsum dolor sit amet,consectetur adipisic ing elit, sed do...</p>
+                    <a class="red" href="#">Read more ...</a>
+                </div>
+            </div>
+            <div class="row order">
+                <div class="col-md-4 col-xs-12 brdr-gray">
+                    <div class="col-md-3 col-xs-3">
+                        <i class="fa fa-phone-square fa-4x"></i>
+                    </div>
+                    <div class="col-md-9 col-xs-9">
+                        <h4>ORDER ONLINE NOW</h4>
+                        <P>Call Us: (0123) 456 789</P>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12 brdr-gray">
+                    <div class="col-md-3 col-xs-3">
+                        <i class="fa fa-plane fa-4x"></i>
+                    </div>
+                    <div class="col-md-9 col-xs-9">
+                        <h5>FREE WORLDWIDE SHIPPING</h5>
+                        <P>On Order Over $100</P>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12 brdr-gray">
+                    <div class="col-md-3 col-xs-3">
+                        <i class="fa fa-money fa-4x"></i>
+                    </div>
+                    <div class="col-md-9 col-xs-9">
+                        <h4>30 DAYS MONEY BACK 100%</h4>
+                        <P>Satisfaction Guarantee</P>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <section id="foot-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-xs-3">
+                        <h5><strong>ACCESORIES</strong></h5>
+                        <p>Lorem ipsum dolor sit amet,  consectetur adipisic ing elit,  sed do eiusmod tempor incididunt ut labor et dolore magna aliqua,  Utenim ad minim veniam quis nostrud exercitation ullamco laboris</p>
+                        <div class="row icons">
+                            <div class="col-md-3 square text-center">
+                                <i class="fa fa-facebook"></i>
+                            </div>
+                            <div class="col-md-3 square text-center">
+                                <i class="fa fa-twitter"></i>
+                            </div>
+                             <div class="col-md-3 square text-center">
+                                <i class="fa fa-rss"></i>
+                            </div>
+                            <div class="col-md-3 square text-center">
+                                <i class="fa fa-skype"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-xs-2">
+                        <h5><strong>MY ACCOUNT</strong></h5>
+                        <ul>
+                            <li>My Account</li>
+                            <li>Order History</li>
+                            <li>Wish List</li>
+                            <li>Newsletter</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-xs-2">
+                        <h5><strong>INFORMATION</strong></h5>
+                        <ul>
+                            <li>About Us</li>
+                            <li>Delivery Information</li>
+                            <li>Privacy Policy</li>
+                            <li>Terms & Conditions</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-xs-2">
+                        <h5><strong>EXTRAS</strong></h5>
+                        <ul>
+                            <li>Brands</li>
+                            <li> Gift Vouchers</li>
+                            <li>Affiliates</li>
+                            <li>Specials</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-xs-3">
+                        <h5><strong>ABOUT US</strong></h5>
+                        <div class="row">
+                            <div class="col-md-2 col-xs-3 circle">
+                                <i class="fa fa-map-marker fa-lg"></i>
+                            </div>
+                            <div class="col-md-10 col-xs-9">
+                                <p>8901 Marmora Road,  Glasgow DO4 89 GR,  New York</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2 col-xs-3 circle">
+                                <i class="fa fa-phone fa-lg"></i>
+                            </div>
+                            <div class="col-md-10 col-xs-9">
+                                <p>(0123)456 789 (0987)654 321</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-2 col-xs-3 circle">
+                                <i class="fa fa-envelope fa-lg"></i>
+                            </div>
+                            <div class="col-md-10 col-xs-9">
+                                <p>admin a boot experts.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="foot-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-xs-4">
+                        <p>Copyright © 2015 <span>BootExperts.</span> All rights reserved</p>
+                    </div>
+                    <div class="col-md-5 col-xs-5"></div>
+                    <div class="col-md-3 col-xs-3">
+                        <img class="img-responsive" src="images/payment.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+<!--Scripts-->
+    <script src="js/jquery-min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/creative.js"></script>
+                        
+</body>
+</html>

@@ -1,0 +1,48 @@
+/*Section Footer*/
+footer{
+	#foot-1{
+		background-color: #e5e6e6;
+		padding: $uno;
+		ul{
+			margin-left: -15%;
+			li{
+				list-style-type: square;
+				font-size: x-small;
+				margin-top: $diez;
+			}
+		}
+		.icons{
+			margin-top: $diez;
+			.square{
+			background-color: white;
+			width: 15%;
+			margin-right: 5%;
+			padding: $dos;
+		}
+		}
+		.circle{
+			background-color: white;
+			border-radius: 10em;
+			height: 2.3em;
+			width: 2.3em;
+			font-size: large;
+			.fa{
+				margin-top: 100%;
+			}
+			.fa-envelope, .fa-phone {
+				margin-left: -50%;
+			}
+		}
+	}
+	#foot-2{
+		background-color: #252727;
+		padding: $uno;
+		p{
+			color: white;
+			span{
+				color: $bgHighlight;
+			}
+		}
+	}
+}
+/*Fin Section Footer*/

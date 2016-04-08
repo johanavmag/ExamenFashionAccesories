@@ -1,0 +1,132 @@
+/*Estilo Navbar*/
+nav{
+	background-color: #e6e6e6 !important;
+	.navbar-collapse{
+		margin-top: -$cinco;
+	}
+	.navbar-brand{
+		font-size: small;
+	}
+}
+.navbar-default {
+  .navbar-brand {
+    color: $colDefault;
+    &:hover, &:focus {
+      color: $colHighlight; }}
+  .navbar-text {
+    color: $colDefault; }
+  .navbar-nav {
+    > li {
+      > a {
+        color: $colDefault;
+        &:hover,  &:focus {
+          color: $colHighlight; }}
+      @if $dropDown {
+        > .dropdown-menu {
+          > li {
+            > a {
+              color: $colDefault;
+              &:hover,  &:focus {
+                color: $colHighlight;
+                background-color: $bgHighlight; }}
+            > .divider {
+              background-color: $bgHighlight;}}}}}
+    @if $dropDown {
+      .open .dropdown-menu > .active {
+        > a, > a:hover, > a:focus {
+          color: $colHighlight;
+          background-color: $bgHighlight; }}}
+    > .active {
+      > a, > a:hover, > a:focus {
+        color: $colHighlight;
+        background-color: $bgHighlight; }}
+    > .open {
+      > a, > a:hover, > a:focus {
+        color: $colHighlight;
+        background-color: $bgHighlight; }}}
+  .navbar-toggle {
+    border-color: $bgHighlight;
+    &:hover, &:focus {
+      background-color: $bgHighlight; }
+    .icon-bar {
+      background-color: $colDefault; }}
+  .navbar-collapse,
+  .navbar-form {
+    border-color: $colDefault; }
+  .navbar-link {
+    color: $colDefault;
+    &:hover {
+      color: $colHighlight; }}}
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu {
+    > li > a {
+      color: $colDefault;
+      &:hover, &:focus {
+        color: $colHighlight; }}
+    > .active {
+      > a, > a:hover, > a:focus {
+        color: $colHighlight;
+        background-color: $bgHighlight; }}}
+}
+/*Fin Estilo Navbar*/
+/*Section Time*/
+#time{
+	color: #404040;
+	.opening{
+		margin-top: $cinco;
+		.fa-clock-o{
+			margin-top: $diez;
+		}
+		.txt-1{
+			font-size: large;
+		}
+	}
+	#logo{
+			margin-top: 8%;
+		}
+	input{
+		margin-top: 25%;
+		width: 90%;
+	}
+}
+@media screen and (max-width: 600px) {
+		#time{
+			font-size: x-small;
+			.fa-clock-o{
+				font-size: x-large;
+				margin-left:1em;
+				margin-bottom: .3em;
+			}
+			.txt-1{
+				font-size: x-small;
+				font-weight: bold;
+			}
+		}
+	}
+/*Fin Section Time*/
+/*Section cart*/
+#cart{
+	margin-top: $dos;
+	background-color: #e6e6e6;
+	a {
+    color: #141415;
+    text-decoration: none;
+}
+	nav-tabs{
+		li{
+			color: black !important;
+				a{
+					text-decoration: none;
+				}
+		}
+	}
+	.navbar-right{
+		margin-top:-.7% ;
+		font-size: x-small;
+	}
+	.nav>li>a:focus, .nav>li>a:hover {
+	    text-decoration: none;
+	    background-color: #F76F6F;
+	}
+}
+/*Fin Section cart*/
