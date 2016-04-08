@@ -43,3 +43,13 @@
 	}
 }
 /*Fin Pagina Contact*/
+@media screen and (max-width: 600px) {
+    #c-info{
+		.bg-red{
+			p{
+				font-size:large;
+				text-align: center;
+			}
+		}
+	}
+}

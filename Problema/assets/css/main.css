@@ -70,16 +70,6 @@ nav {
     margin-top: 25%;
     width: 90%; }
 
-@media screen and (max-width: 600px) {
-  #time {
-    font-size: x-small; }
-    #time .fa-clock-o {
-      font-size: x-large;
-      margin-left: 1em;
-      margin-bottom: .3em; }
-    #time .txt-1 {
-      font-size: x-small;
-      font-weight: bold; } }
 /*Fin Section Time*/
 /*Section cart*/
 #cart {
@@ -100,6 +90,16 @@ nav {
     background-color: #F76F6F; }
 
 /*Fin Section cart*/
+@media screen and (max-width: 600px) {
+  #time {
+    font-size: x-small; }
+    #time .fa-clock-o {
+      font-size: x-large;
+      margin-left: 1em;
+      margin-bottom: .3em; }
+    #time .txt-1 {
+      font-size: x-small;
+      font-weight: bold; } }
 /* Section bg-img*/
 #slider {
   margin-bottom: 5%; }
@@ -206,6 +206,22 @@ nav {
         border-right: .1em solid silver; }
 
 /*Fin Section Blog*/
+@media screen and (max-width: 600px) {
+  #slider .carousel-caption {
+    margin-bottom: 2%;
+    margin-left: 15%; }
+  #slider .brdr-gray {
+    border: .2em solid silver;
+    padding: 0%;
+    margin-bottom: 8%; }
+  #slider h2 {
+    font-size: small; }
+  #slider p {
+    font-size: x-small !important; }
+
+  #arrival .list-items ul li a, #clothing .list-items ul li a, #blog .list-items ul li a {
+    color: silver;
+    font-size: x-small; } }
 /*Section Footer*/
 footer #foot-1 {
   background-color: #e5e6e6;
@@ -214,7 +230,7 @@ footer #foot-1 {
     margin-left: -15%; }
     footer #foot-1 ul li {
       list-style-type: square;
-      font-size: x-small;
+      font-size: small;
       margin-top: 10%; }
   footer #foot-1 .icons {
     margin-top: 10%; }
@@ -242,6 +258,34 @@ footer #foot-2 {
       color: #fb6868; }
 
 /*Fin Section Footer*/
+@media screen and (max-width: 600px) {
+  #foot-1 {
+    background-color: #e5e6e6;
+    padding: 1%;
+    font-size: small; }
+    #foot-1 ul {
+      margin-left: -15%; }
+      #foot-1 ul li {
+        list-style-type: square;
+        font-size: x-small;
+        margin-top: 10%; }
+    #foot-1 .icons {
+      margin-top: 10%; }
+      #foot-1 .icons .square {
+        background-color: white;
+        width: 15%;
+        margin-right: 5%;
+        padding: 2%; }
+    #foot-1 .circle {
+      background-color: white;
+      border-radius: 10em;
+      height: 2.3em;
+      width: 2.3em;
+      font-size: large; }
+      #foot-1 .circle .fa {
+        margin-top: 100%; }
+      #foot-1 .circle .fa-envelope, #foot-1 .circle .fa-phone {
+        margin-left: -50%; } }
 /*Pagina Contact*/
 #c-info {
   background-image: url("../images/client-bg.jpg");
@@ -281,6 +325,10 @@ footer #foot-2 {
     width: 7em; }
 
 /*Fin Pagina Contact*/
+@media screen and (max-width: 600px) {
+  #c-info .bg-red p {
+    font-size: large;
+    text-align: center; } }
 * {
   font-family: 'Lato', sans-serif; }
 

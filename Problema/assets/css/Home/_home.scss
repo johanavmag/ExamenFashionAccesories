@@ -142,3 +142,34 @@
 	}
 }
 /*Fin Section Blog*/
+@media screen and (max-width: 600px) {
+    #slider{
+    	.carousel-caption{
+    		margin-bottom: 2%;
+    		margin-left: 15%; 
+    	}
+    	.brdr-gray{
+    		border: .2em solid silver;
+    		padding: 0%;
+			margin-bottom: 8%;
+    	}
+    	h2{
+			font-size: small;
+    	}
+    	p{
+			font-size: x-small !important;
+    	}
+    }
+    #arrival{
+		.list-items{
+			ul{
+				li{
+					a{
+						color: silver;
+						font-size: x-small;
+					}
+				}
+			}
+		}
+	}
+}
